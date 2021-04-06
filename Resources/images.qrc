@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images.qrc</file>
+    </qresource>
+    <qresource prefix="/Qss"/>
+</RCC>

@@ -1,0 +1,153 @@
+QLabel#label_6
+{
+    margin-left: 18px;
+}
+
+QPushButton#musicpushButton,
+QPushButton#albumpushButton,
+QPushButton#listpushButton,
+QPushButton#mvpushButton
+{
+    outline: none;
+    background: transparent;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #F6F6F6;
+    margin-bottom: 2px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: black;
+}
+
+QPushButton#musicpushButton:hover,
+QPushButton#albumpushButton:hover,
+QPushButton#listpushButton:hover,
+QPushButton#mvpushButton:hover
+{
+    border-image: url("");
+    border-bottom: 2px solid #F6F6F6;
+    color: #31c27c;
+}
+
+QPushButton#musicpushButton:checked,
+QPushButton#albumpushButton:checked,
+QPushButton#listpushButton:checked,
+QPushButton#mvpushButton:checked
+{
+    border-bottom: 2px solid #31c27c;
+    color: #31c27c;
+}
+
+QPushButton#musicpushButton:pressed,
+QPushButton#albumpushButton:pressed,
+QPushButton#listpushButton:pressed,
+QPushButton#mvpushButton:pressed
+{
+    border-image: url("");
+    border: none;
+    color: #31c27c;
+    margin-top: 1px;
+    padding-top: 1px;
+    border-bottom: 2px solid #31c27c;
+}
+
+QPushButton#PlaypushButton
+{
+    outline: none;
+    background: transparent;
+    background-color: #2ac890;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: white;
+    border-radius:14px;
+}
+QPushButton#DownloadpushButton,
+QPushButton#MultipushButton
+{
+    outline: none;
+    background: transparent;
+    background-color: #d9d8d9;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: black;
+    border-radius:14px;
+}
+
+QPushButton#PlaypushButton:hover
+{
+    background-color: #2eb878;
+}
+
+QPushButton#DownloadpushButton:hover,
+QPushButton#MultipushButton:hover
+{
+    background-color: #dbdbdb;
+}
+
+QPushButton#PlaypushButton:pressed
+{
+    background-color: #2eb372;
+}
+
+QPushButton#DownloadpushButton:pressed,
+QPushButton#MultipushButton:pressed
+{
+    background-color: #dddddd;
+}
+
+QLineEdit#lineEdit
+{
+    border-width:1px;
+    border-radius:4px;
+    font-size:12px;
+    color:black;
+    border:1px solid #dddddd;
+}
+
+QHeaderView::section
+{
+    font-size:14px;
+    background: #F6F6F6;
+    border:none;
+    margin-left: 6px;
+    margin-top: 16px;
+    min-height:20px;
+    max-height:20px;
+}
+
+QTableView#musictableWidget
+{
+    font-size:14px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+QTableView::item
+{
+    font-size:14px;
+    color: black;
+}
+
+QTableView::item:hover
+{
+    color: #2eb372;
+    background:#dddddd;
+}
+
+QTableView::item:selected
+{  
+    color: #2eb372;
+    background: #F6F6F6;
+
+}
+

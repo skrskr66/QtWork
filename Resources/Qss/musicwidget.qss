@@ -1,0 +1,133 @@
+QPushButton#MusicLibPushButton,
+QPushButton#VideoPushButton,
+QPushButton#RadioPushButton,
+QPushButton#LocalMusicPushButton,
+QPushButton#MyfavoritePushButton,
+QPushButton#DownloadMusicPushButton,
+QPushButton#HistoryPushButton,
+QPushButton#PurchasePushButton
+{
+    border-radius:2px;
+    text-align: left;
+}
+
+QPushButton#MusicLibPushButton:hover,
+QPushButton#VideoPushButton:hover,
+QPushButton#RadioPushButton:hover,
+QPushButton#LocalMusicPushButton:hover,
+QPushButton#MyfavoritePushButton:hover,
+QPushButton#DownloadMusicPushButton:hover,
+QPushButton#HistoryPushButton:hover,
+QPushButton#PurchasePushButton:hover
+{
+    background-color:#d9d8d9;
+}
+
+QPushButton#MusicLibPushButton:checked,
+QPushButton#VideoPushButton:checked,
+QPushButton#RadioPushButton:checked,
+QPushButton#LocalMusicPushButton:checked,
+QPushButton#MyfavoritePushButton:checked,
+QPushButton#DownloadMusicPushButton:checked,
+QPushButton#HistoryPushButton:checked,
+QPushButton#PurchasePushButton:checked
+{
+    background-color:qlineargradient(spread:pad,  x1:0, x2:1, y1:0, y2:0,
+        stop: 0 #1dd6bf,
+        stop: 0.25 #24d0ae,
+        stop: 0.50 #28cc9e,
+        stop: 0.75 #2ac890,
+        stop: 1 #32c37d);
+    color: white;
+}
+
+QPushButton#PlayButton
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/playbutton2.png);
+}
+
+QPushButton#PlayButton:checked
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/playbutton.png);
+}
+
+QPushButton#NextButton
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/nextbutton.png);
+}
+
+QPushButton#NextButton:pressed
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/nextbuttoncheck.png);
+}
+
+QPushButton#previousButton
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/previousbutton.png);
+}
+
+QPushButton#previousButton:pressed
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/previousbuttoncheck.png);
+}
+
+QPushButton#VolumeButton
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/QVolume.png);
+}
+
+QPushButton#VolumeButton:hover
+{
+
+}
+
+QPushButton#VolumeButton:pressed
+{
+    border-image: url(/Users/liuyucheng/WorkSpace/Qt/Music_QQ/image/QVolumePress.png);
+}
+
+QSlider#playSlider::groove:horizontal {
+    background: #F0F0F0;
+    height: 1px;
+}
+
+QSlider#playSlider::sub-page:horizontal {
+    background: #2eb372
+}
+
+QSlider#playSlider::add-page:horizontal {
+    background: #d9d8d9;
+}
+
+QSlider#playSlider::handle:horizontal
+{
+    background: #2eb372;
+}
+
+QSlider#playSlider::handle:horizontal:hover {
+    width:6px;
+    background-color:#2eb372;
+    margin:-3px 0px -3px 0px;
+    border-radius: 3px;
+}
+
+QSlider#playSlider::sub-page:horizontal:disabled {
+    background: #d9d8d9;
+}
+
+QSlider#playSlider::add-page:horizontal:disabled {
+    background: #d9d8d9;
+}
+
+QSlider#playSlider::handle:horizontal:disabled {
+    width:6px;
+    background-color:#2eb372;
+    margin:-3px 0px -3px 0px;
+    border-radius: 3px;
+}
+
+QTextEdit#textEdit
+{
+    border :3px;
+    background-color : #353132;
+}

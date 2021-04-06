@@ -1,0 +1,42 @@
+QSlider#VolumeSlider::groove:vertical {
+    background: #F0F0F0;
+    width: 2px;
+}
+
+QSlider#VolumeSlider::sub-page:vertical {
+    background: #d9d8d9
+}
+
+QSlider#VolumeSlider::add-page:vertical {
+    background: #2eb372;
+}
+
+QSlider#VolumeSlider::handle:vertical
+{
+    background: #2eb372;
+    height:6px;
+    margin:0px -3px 0px -3px;
+    border-radius: 3px;
+}
+
+QSlider#VolumeSlider::handle:vertical:hover {
+    height:6px;
+    background-color:#2eb372;
+    margin:0px -3px 0px -3px;
+    border-radius: 3px;
+}
+
+QSlider#VolumeSlider::sub-page:vertical:disabled {
+    background: #2eb372;
+}
+
+QSlider#VolumeSlider::add-page:vertical:disabled {
+    background: #2eb372;
+}
+
+QSlider#VolumeSlider::handle:vertical:disabled {
+    height: 6px;
+    background-color:#d9d8d9;
+    margin:-3px 0px -3px 0px;
+    border-radius: 3px;
+}
